@@ -4,7 +4,7 @@ import pandas as pd
 import csv
 
 # open-meteo.com
-url = "https://archive-api.open-meteo.com/v1/archive?latitude=41.6005&longitude=-93.6091&start_date=2000-01-01&end_date=" \
+url = "https://archive-api.open-meteo.com/v1/archive?latitude=41.6005&longitude=-93.6091&start_date=1940-01-01&end_date=" \
       "2024-07-06&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean&timezone=" \
       "America%2FChicago&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch"
 response = req.get(url).json()
